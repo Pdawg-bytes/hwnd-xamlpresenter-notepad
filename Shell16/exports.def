@@ -1,0 +1,7 @@
+EXPORTS
+   ShellAboutW=ModdedShellAboutW
+   DragAcceptFiles=ModdedDragAcceptFiles
+   ShellExecuteW=ModdedShellExecuteW
+   DragQueryFileW=ModdedDragQueryFileW
+   DragFinish=ModdedDragFinish
+   SHAddToRecentDocs=ModdedSHAddToRecentDocs

@@ -2,7 +2,8 @@
 This is a Shell16.dll modification that allows you to create a XamlPresenter window that launches by clicking "About" in Notepad's top menu.
 
 # What can you do?
-With this, you can create any XAML element inside of a presenter window that launches from notepad. It can be for hiding easter eggs, like this: ![image](https://user-images.githubusercontent.com/83825746/205511464-fbf2c715-3e88-47d3-a827-fdff910e4e1b.png)
+With this, you can create any XAML element inside of a presenter window that launches from notepad. It can be for hiding easter eggs, like this: 
+![image](https://user-images.githubusercontent.com/83825746/205511464-fbf2c715-3e88-47d3-a827-fdff910e4e1b.png)
 
 This screenshot was taken in WinPE UWP, a project by me and a few other friends!
 

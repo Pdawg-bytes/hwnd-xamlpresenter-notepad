@@ -98,6 +98,10 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(VCIDEInstallDir)vcpackages;$(VCIDEInstallDir)vcpackages\;$(FrameworkSdkDir)UnionMetadata\$(TargetPlatformVersion)</AdditionalUsingDirectories>
+      <AdditionalOptions>/Zc:twoPhase-</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <CompileAsWinRT>true</CompileAsWinRT>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -136,6 +140,10 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(VCIDEInstallDir)vcpackages;$(VCIDEInstallDir)vcpackages\;$(FrameworkSdkDir)UnionMetadata\$(TargetPlatformVersion)</AdditionalUsingDirectories>
+      <AdditionalOptions>/Zc:twoPhase-</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <CompileAsWinRT>true</CompileAsWinRT>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

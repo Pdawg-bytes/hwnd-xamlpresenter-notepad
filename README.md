@@ -9,7 +9,7 @@ With this, you can create any XAML element inside of a presenter window that lau
 This screenshot was taken in WinPE UWP, a project by me and a few other friends!
 
 # Buiilding
-To build the modified DLL, you must have C++ installed and UWP C++ (for C++/CX support). Make sure to use Visual Studio 2022 for best results!
+To build the modified DLL, you must have C++ installed and UWP C++ (for C++/CX support). Also, the DLL needs to be built for x86. This is because the datatypes will overflow and cause a crash (a 64 bit int is being passed to a 32bit int in the hWnd) Make sure to use Visual Studio 2022 for best results!
 
 **Important:**
 Before you build though, you will need the internal WinMD file. This is provided in `/WinMD/Windows.UI.Xaml.Hosting.winmd`. This WinMD allows you to create the XAML presenter window. To add it into your `dllmain.cpp` file, do this:

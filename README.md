@@ -15,7 +15,7 @@ To build the modified DLL, you must have C++ installed and UWP C++ (for C++/CX s
 Before you build though, you will need the internal WinMD file. This is provided in `/WinMD/Windows.UI.Xaml.Hosting.winmd`. This WinMD allows you to create the XAML presenter window. To add it into your `dllmain.cpp` file, do this:
 
 ```cpp
-#using "C:\Users\pgago\Downloads\UpdatedShell16v2\Windows.UI.Xaml.Hosting.winmd" // Make sure to set the path to where ever your winmd file is! (This path is an example on my computer)
+#using "D:\Source\Git\hwnd-xamlpresenter-notepad\WinMD\Windows.UI.Xaml.Hosting.winmd" // Make sure to set the path to where ever your winmd file is! (This path is an example on my computer)
 ```
 
 Just modifiy line 18 of `dllmain.cpp` and add the path to where your WinMD is saved.

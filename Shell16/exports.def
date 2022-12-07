@@ -1,6 +1,7 @@
+LIBRARY Shell16
 EXPORTS
-   DragAcceptFiles=ModdedDragAcceptFiles
    ShellExecuteW=ModdedShellExecuteW
+   DragAcceptFiles=ModdedDragAcceptFiles
    DragQueryFileW=ModdedDragQueryFileW
    DragFinish=ModdedDragFinish
    SHAddToRecentDocs=ModdedSHAddToRecentDocs

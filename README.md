@@ -1,5 +1,5 @@
 # hwnd-xamlpresenter-notepad
-This is a Shell16.dll modification that allows you to create a XamlPresenter window that launches by clicking "About" in Notepad's top menu.
+This is a Shell32.dll modification that allows you to create a XamlPresenter window that launches by clicking "About" in Notepad's top menu.
 
 # What can you do?
 With this, you can create any XAML element inside of a presenter window that launches from notepad. It can be for hiding easter eggs, like this: 

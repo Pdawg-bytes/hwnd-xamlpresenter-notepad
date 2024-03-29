@@ -15,7 +15,7 @@ using namespace ABI::Windows::UI::Core;
 using namespace Windows::Foundation;
 using namespace Concurrency;
 
-#using "D:\Source\Git\hwnd-xamlpresenter-notepad\WinMD\Windows.UI.Xaml.Hosting.winmd" // Make sure to set the path to where ever your winmd file is! (This path is an example on my computer)
+#using "G:\Source\Git\hwnd-xamlpresenter-notepad\WinMD\Windows.UI.Xaml.Hosting.winmd" // Make sure to set the path to where ever your winmd file is! (This path is an example on my computer)
 
 BOOL APIENTRY DllMain(HMODULE hModule,
     DWORD  ul_reason_for_call,
@@ -56,6 +56,8 @@ ComPtr<ICoreWindow> coreWindow = nullptr;
 
 ICoreDispatcher* dispatcher = nullptr;
 
+HWND g_window;
+
 XamlPresenter^ i;
 
 INT ModdedShellAboutW(
@@ -91,6 +93,7 @@ INT ModdedShellAboutW(
         GetModuleHandle(NULL),  // Instance handle
         NULL                    // Additional application data
     );
+    g_window = window;
 
     if (coreWindow == nullptr)
     {
